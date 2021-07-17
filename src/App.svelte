@@ -1,30 +1,26 @@
 <script lang="ts">
-	export let name: string;
+	import Name from './Name.svelte';
+	let name: string = "Nico Bleiler";
+	let attributes: Array<string> = ["a Developer.", "an Engineer.", "a Tinkerer.", "a Gamer.", "running out of attributes to put here.", "Ironman."]
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<header class="header center">
+		<Name name={name} attributes={attributes}></Name>
+	</header>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident consectetur inventore, magni veritatis tempora nulla officiis recusandae beatae non laudantium, alias commodi veniam sit! Rerum nobis veritatis similique eveniet?</p>
 </main>
 
 <style>
-	main {
+	.header {
+		width: 100%;
+		height: 100vh;
+		background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) ), url("/images/background-code.jpg");	
+	}
+	.center {
 		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
 	}
 </style>

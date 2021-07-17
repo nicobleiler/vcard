@@ -38,6 +38,7 @@ export default {
 		name: 'app',
 		file: 'public/build/bundle.js'
 	},
+	inlineDynamicImports: true,
 	plugins: [
 		svelte({
 			preprocess: sveltePreprocess({ sourceMap: !production }),
