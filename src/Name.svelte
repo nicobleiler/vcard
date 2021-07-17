@@ -9,7 +9,7 @@
         <span id="name">{name}</span>
     </h1>
     <span id="description">I am 
-        <Typewriter loop interval={100}>
+        <Typewriter loop={3000} interval={100}>
             {#each attributes as attribute}
             <strong>{attribute}</strong>
             {/each}
