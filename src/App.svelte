@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Name from './Name.svelte';
 	let name: string = "Nico Bleiler";
-	let attributes: Array<string> = ["a Developer.", "an Engineer.", "a Tinkerer.", "a Gamer.", "running out of attributes to put here.", "Ironman."]
+	let attributes: Array<string> = ["a developer.", "an engineer.", "Batman", "a tinkerer.", "a gamer.", "running out of attributes to put here.", "Ironman."]
 </script>
 
 <main>
