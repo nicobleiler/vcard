@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Name from './Name.svelte';
 	import ScrollIcon from './ScrollIcon.svelte';
+	import TimeLine from './TimeLine.svelte';
 	let name: string = "Nico Bleiler";
 	let attributes: Array<string> = ["a developer.", "an engineer.", "Batman", "a tinkerer.", "a gamer.", "running out of ideas to put here.", "Ironman.", "looking for a Job"]
 </script>
@@ -14,6 +15,7 @@
 			<ScrollIcon></ScrollIcon>
 		</div>
 	</header>
+	<TimeLine timeLineItems={[]}></TimeLine>
 	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident consectetur inventore, magni veritatis tempora nulla officiis recusandae beatae non laudantium, alias commodi veniam sit! Rerum nobis veritatis similique eveniet?</p>
 </main>
 

@@ -5,17 +5,13 @@
         position: absolute;
         left: 50%;
     }
-
     .icon-scroll {
         width: 40px;
         height: 70px;
         margin-left: -20px;
-        top: 50%;
-        margin-top: -35px;
         box-shadow: inset 0 0 0 1px #fff;
         border-radius: 25px;
     }
-
     .icon-scroll:before {
         content: '';
         width: 8px;
@@ -28,7 +24,6 @@
         animation-iteration-count: infinite;
         animation-name: scroll;
     }
-
     @keyframes scroll {
         0% {
             opacity: 1;
