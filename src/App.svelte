@@ -107,7 +107,7 @@
 			location: "Divinci GmbH",
 			title: "Software development apprenticeship",
 			subtitle: "09/2017 - 09/2020",
-			description: "<ul><li>Course booking plugin for Hospital staff</li><li>Course booking and Management website for healthcare personnel</li><li>Payment gateway implementations</li><li>Warehouse management tool for Ingersoll Rand</li><li>Hotel booking tool for craftsmen</li><li>Backup monitoring service for Ingersoll Rand</li><li>Document management tool for tax advisors</li></ul>"
+			description: "<ul><li>Course booking plugin for Hospital staff</li><li>Course booking and management website for healthcare personnel</li><li>Payment gateway implementations</li><li>Warehouse management tool for Ingersoll Rand</li><li>Hotel booking tool for construction workers</li><li>Backup monitoring service for Ingersoll Rand</li><li>Document management tool for tax advisors</li></ul>"
 		},
 		{
 			image: "/images/timeline/divinci-logo.png",
