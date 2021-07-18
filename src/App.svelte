@@ -3,7 +3,6 @@
 	import Skills from './Skills.svelte';
 	import ScrollIcon from './ScrollIcon.svelte';
 	import TimeLine from './TimeLine.svelte';
-	import { fade } from 'svelte/transition';
 	let name: string = "Nico Bleiler";
 	let attributes: Array<string> = ["a developer.", "an engineer.", "Batman.", "a tinkerer.", "a gamer.", "running out of ideas to put here.", "Ironman.", "looking for a Job."];
 	let skillItems = [
@@ -178,7 +177,7 @@
 	.header {
 		width: 100%;
 		height: 100vh;
-		background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.7) ), url("/images/background-code-min.jpg");	
+		background-image: linear-gradient(rgba(0, 0, 0, .95), rgba(0, 0, 0, 0.9) ), url("/images/background-code-min.jpg");	
   		background-size: cover;
   		background-repeat: no-repeat;
 	}
