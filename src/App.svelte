@@ -180,6 +180,7 @@
 		background-image: linear-gradient(rgba(0, 0, 0, .95), rgba(0, 0, 0, 0.9) ), url("/images/background-code-min.jpg");	
   		background-size: cover;
   		background-repeat: no-repeat;
+        filter: grayscale(50%);
 	}
 	.center {
 		text-align: center;
