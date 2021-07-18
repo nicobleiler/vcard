@@ -5,7 +5,7 @@
 </script>
 
 <div class="center">
-    <img id="avatar" src="/images/me.jpg" alt="Avatar">
+    <img id="avatar" src="/images/me-hc.jpg" alt="Avatar">
     <h1>
         <span id="name">{name}</span>
     </h1>
@@ -22,7 +22,7 @@
     #avatar {
         height: 250px;
         border-radius: 50%;
-        filter: grayscale(100%);
+        /* filter: grayscale(100%); */
     }
     div {
         font-family:  Arial, sans-serif;

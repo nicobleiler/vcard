@@ -19,6 +19,7 @@
 		border-radius: 4px;
 		transition: all 600ms;
 		overflow: hidden;
+		padding: 10px;
  	}
 	.card img {
 		height: 100%;
@@ -28,7 +29,7 @@
 	.card:hover {    
 		box-shadow: 0px 0px .2em grey, 0px 0px .2em grey;
 		transform: translateY(-3px) scale(.95);
-	}	
+	}
     .tall {
       grid-row: span 2 / auto;
     }
