@@ -115,7 +115,7 @@
 			location: "Divinci GmbH",
 			title: "Software development internship",
 			subtitle: "02/2017 - 09/2017",
-			description: "<ul><li>Quiz game</li><li>DJ booking website</li><li>Ticketsystem(Department transfer)</li><li>Wordpress websites</li></ul>"
+			description: "<ul><li>Quiz game</li><li>DJ booking website</li><li>Custom Product Request workflow</li><li>Wordpress websites</li></ul>"
 		}
 	];
 </script>
