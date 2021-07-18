@@ -27,8 +27,9 @@
 <svelte:window bind:scrollY={scrollY}/>
 
 <div class="timeline-item" class:timeline-item--active={visible} data-text="{location}" bind:this={element}>
-    <div class="timeline__content"><img class="timeline__img" src="{image}" alt="Logo"/>
+    <div class="timeline__content">
         <h2 class="timeline__content-title">{timeRange}</h2>
+        <img class="timeline__img" src="{image}" alt="Logo"/>
         <small>{title}</small>
         <br>
         <small>{subtitle}</small>
@@ -74,7 +75,7 @@
         opacity: 1;
     }
     .timeline-item--active .timeline__content-title {
-        margin: -50px 0 20px 0;
+        margin: -50px 0 17px 0;
     }
     @media only screen and (max-width: 767px) {
         .timeline-item {
@@ -108,13 +109,16 @@
     }
     .timeline__img {
         max-width: 100%;
+        background-color: #ffffff;
         box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
     }
     .timeline__content-title {
         font-weight: normal;
         font-size: 50px;
-        margin: -10px 0 0 0;
+        /* margin: -10px 0 0 0; */
+        margin: 0px;
         transition: 0.4s;
+        line-height: 0px;
         padding: 0 10px;
         box-sizing: border-box;
         font-family:  Arial, sans-serif;

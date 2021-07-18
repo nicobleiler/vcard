@@ -106,7 +106,7 @@
 			image: "/images/timeline/divinci-logo.png",
 			timeRange: "2017",
 			location: "Divinci GmbH",
-			title: "Softwaredevelopment apprenticeship",
+			title: "Software development apprenticeship",
 			subtitle: "09/2017 - 09/2020",
 			description: "<ul><li>Course booking plugin</li><li>Payment gateway implementations</li></ul>"
 		},
@@ -114,7 +114,7 @@
 			image: "/images/timeline/divinci-logo.png",
 			timeRange: "2017",
 			location: "Divinci GmbH",
-			title: "Softwaredevelopment internship",
+			title: "Software development internship",
 			subtitle: "02/2017 - 09/2017",
 			description: "<ul><li>Quiz game</li><li>DJ booking website</li><li>Ticketsystem(Department transfer)</li></ul>"
 		}
