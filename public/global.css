@@ -4,3 +4,9 @@ body {
 	color: lightgray;
 	font-family:  Arial, sans-serif;
 }
+a:visited {
+	color:rebeccapurple;
+}
+::selection {
+	background: rebeccapurple;
+}

@@ -54,7 +54,9 @@
 		<div class="flex-item">
 			<h2>📂 <a href="https://github.com/nicobleiler/vcard" target="_BLANK">GitHub</a></h2>
 		</div>
-		<div class="flex-item"/>
+		<div class="flex-item">
+			<h2>Powered by <a href="https://svelte.dev" target="_BLANK">Svelte</a></h2>
+		</div>
 	</div>
 </main>
 
