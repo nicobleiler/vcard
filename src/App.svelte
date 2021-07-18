@@ -134,19 +134,19 @@
 	<Skills skills={skillItems}></Skills>
 	<div class="flex-box contact">
 		<div class="flex-item">
-			<h2>📍 <a href="https://www.google.com/maps/place/97688+Bad+Kissingen" target="_BLANK">Bad Kissingen</a></h2>
+			<h1>📍 <a href="https://www.google.com/maps/place/97688+Bad+Kissingen" target="_BLANK">Bad Kissingen</a></h1>
 		</div>
 		<div class="flex-item">
-			<h2>📱 <a href="tel:+491732090067">+49 173 209 00 67</a></h2>
+			<h1>📱 <a href="tel:+491732090067">+49 173 209 00 67</a></h1>
 		</div>
 		<div class="flex-item">
-			<h2>📧 <a href="mailto:info@bleiler.dev" target="_BLANK">info@bleiler.dev</a></h2>
+			<h1>📧 <a href="mailto:info@bleiler.dev" target="_BLANK">info@bleiler.dev</a></h1>
 		</div>
 		<div class="flex-item">
-			<h2>📂 <a href="https://github.com/nicobleiler/vcard" target="_BLANK">GitHub</a></h2>
+			<h1>📂 <a href="https://github.com/nicobleiler/vcard" target="_BLANK">GitHub</a></h1>
 		</div>
 		<div class="flex-item">
-			<h2>Powered by <a href="https://svelte.dev" target="_BLANK">Svelte</a></h2>
+			<h1>Powered by <a href="https://svelte.dev" target="_BLANK">Svelte</a></h1>
 		</div>
 	</div>
 </main>
@@ -167,7 +167,7 @@
 		align-content: center;
     	text-align: center;
 	}
-	.flex-item h2 {
+	.flex-item h1 {
 		font-weight: lighter;
 	}	
     @media only screen and (max-width: 767px) {
