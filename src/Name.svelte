@@ -30,7 +30,7 @@
         color: #fff;
     }
     #name {
-        font-size: 10vw;
+        font-size: 8vw;
         letter-spacing: 0;
     }
     #description {
