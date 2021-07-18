@@ -5,10 +5,10 @@
 	export let timeLineItems: Array<any>;
 </script>
 
-<div class="timeline-container" id="timeline-1">
+<div class="timeline-container">
     <div class="timeline-header">
-        <h2 class="timeline-header__title">{title}</h2>
-        <h3 class="timeline-header__subtitle">{subTitle}</h3>
+        <h2 class="timeline-header timeline-title">{title}</h2>
+        <h3 class="timeline-header timeline-subtitle">{subTitle}</h3>
     </div>
     <div class="timeline">
         {#each timeLineItems as TimeLineItemData}
@@ -23,7 +23,7 @@
         margin: 0 auto;
         flex-wrap: wrap;
         flex-direction: column;
-        max-width: 700px;
+        max-width: 800px;
         position: relative;
     }
     .timeline:before {
@@ -57,14 +57,14 @@
         margin-bottom: 80px;
         position: relative;
     }
-    .timeline-header__title {
+    .timeline-header .timeline-title {
         color: #fff;
         font-size: 46px;
         font-family:  Arial, sans-serif;
         font-weight: normal;
         margin: 0;
     }
-    .timeline-header__subtitle {
+    .timeline-header .timeline-subtitle {
         color: rgba(255, 255, 255, .5);
         font-family:  Arial, sans-serif;
         font-size: 16px;

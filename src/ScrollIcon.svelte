@@ -9,6 +9,7 @@
         width: 40px;
         height: 70px;
         margin-left: -20px;
+        transform: translateY(-100px);
         box-shadow: inset 0 0 0 1px #fff;
         border-radius: 25px;
     }
