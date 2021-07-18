@@ -5,6 +5,9 @@ body {
 	color: lightgray;
 	font-family:  Arial, sans-serif;
 }
+a {
+	color:darkslateblue;
+}
 a:visited {
 	color:rebeccapurple;
 }

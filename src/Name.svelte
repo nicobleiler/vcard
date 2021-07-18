@@ -5,6 +5,7 @@
 </script>
 
 <div class="center">
+    <img id="avatar" src="/images/me.jpg" alt="Avatar">
     <h1>
         <span id="name">{name}</span>
     </h1>
@@ -18,6 +19,10 @@
 </div>
 
 <style>
+    #avatar {
+        height: 250px;
+        border-radius: 50%;
+    }
     div {
         font-family:  Arial, sans-serif;
         text-align: center;

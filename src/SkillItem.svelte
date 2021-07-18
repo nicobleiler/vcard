@@ -14,13 +14,8 @@
 	.card {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
         box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
 		font-size: 3rem;
-		color: #fff;
-		height: 100%;
-		width: 100%;
 		border-radius: 4px;
 		transition: all 600ms;
 		overflow: hidden;
