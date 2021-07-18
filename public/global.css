@@ -6,11 +6,11 @@ body {
 	font-family:  Arial, sans-serif;
 }
 a {
-	color:darkslateblue;
+	color:lightgray;
 }
 a:visited {
-	color:rebeccapurple;
+	color:lightgray;
 }
 ::selection {
-	background: rebeccapurple;
+	background: lightgray;
 }

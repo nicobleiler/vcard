@@ -3,6 +3,7 @@
 	export let image: string;
 	export let timeRange: string;
 	export let title: string;
+	export let subtitle: string;
 	export let description: string;
 	export let location: string;
 	let element: Element;
@@ -29,6 +30,8 @@
     <div class="timeline__content"><img class="timeline__img" src="{image}" alt="Logo"/>
         <h2 class="timeline__content-title">{timeRange}</h2>
         <small>{title}</small>
+        <br>
+        <small>{subtitle}</small>
         <p class="timeline__content-desc">{@html description}</p>
     </div>
 </div>

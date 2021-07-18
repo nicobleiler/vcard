@@ -96,23 +96,26 @@
 	let timeLineItems = [
 		{
 			image: "/images/timeline/bitfire-logo.png",
-			timeRange: "09/2020",
+			timeRange: "2020",
 			location: "bitfire GmbH",
 			title: "Softwaredeloper",
+			subtitle: "09/2020 - present",
 			description: "<ul><li>Automating scripts on 1500 clients</li><li>Ticketsystem synchronizations<ul><li>MS Teams calls</li><li>Monitoring tool</li><li>Remotesupport times</li></ul></li></ul>"
 		},
 		{
 			image: "/images/timeline/divinci-logo.png",
-			timeRange: "09/2017",
+			timeRange: "2017",
 			location: "Divinci GmbH",
 			title: "Softwaredevelopment apprenticeship",
+			subtitle: "09/2017 - 09/2020",
 			description: "<ul><li>Course booking plugin</li><li>Payment gateway implementations</li></ul>"
 		},
 		{
 			image: "/images/timeline/divinci-logo.png",
-			timeRange: "02/2017",
+			timeRange: "2017",
 			location: "Divinci GmbH",
 			title: "Softwaredevelopment internship",
+			subtitle: "02/2017 - 09/2017",
 			description: "<ul><li>Quiz game</li><li>DJ booking website</li><li>Ticketsystem(Department transfer)</li></ul>"
 		}
 	];
@@ -164,7 +167,9 @@
 		align-content: center;
     	text-align: center;
 	}
-	
+	.flex-item h2 {
+		font-weight: lighter;
+	}	
     @media only screen and (max-width: 767px) {
 		.flex-box {
 			flex-direction: column;

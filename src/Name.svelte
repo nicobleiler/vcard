@@ -22,6 +22,7 @@
     #avatar {
         height: 250px;
         border-radius: 50%;
+        filter: grayscale(100%);
     }
     div {
         font-family:  Arial, sans-serif;
