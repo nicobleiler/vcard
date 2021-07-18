@@ -97,9 +97,9 @@
 			image: "/images/timeline/bitfire-logo.png",
 			timeRange: "2020",
 			location: "bitfire GmbH",
-			title: "Softwaredeloper",
+			title: "Software developer",
 			subtitle: "09/2020 - present",
-			description: "<ul><li>Automating scripts on 1500 clients</li><li>Ticketsystem synchronizations<ul><li>MS Teams calls</li><li>Monitoring tool</li><li>Remotesupport times</li></ul></li></ul>"
+			description: "<ul><li>Automating scripts on 1500 clients</li><li>Ticketsystem synchronizations<ul><li>MS Teams calls</li><li>Monitoring tool</li><li>Remotesupport sessions</li></ul></li><li>Database administration</li></ul>"
 		},
 		{
 			image: "/images/timeline/divinci-logo.png",
@@ -107,7 +107,7 @@
 			location: "Divinci GmbH",
 			title: "Software development apprenticeship",
 			subtitle: "09/2017 - 09/2020",
-			description: "<ul><li>Course booking plugin</li><li>Payment gateway implementations</li></ul>"
+			description: "<ul><li>Course booking plugin for Hospital staff</li><li>Course booking and Management website for healthcare personnel</li><li>Payment gateway implementations</li><li>Warehouse management tool for Ingersoll Rand</li><li>Hotel booking tool for craftsmen</li><li>Backup monitoring service for Ingersoll Rand</li><li>Document management tool for tax advisors</li></ul>"
 		},
 		{
 			image: "/images/timeline/divinci-logo.png",
@@ -115,7 +115,7 @@
 			location: "Divinci GmbH",
 			title: "Software development internship",
 			subtitle: "02/2017 - 09/2017",
-			description: "<ul><li>Quiz game</li><li>DJ booking website</li><li>Ticketsystem(Department transfer)</li></ul>"
+			description: "<ul><li>Quiz game</li><li>DJ booking website</li><li>Ticketsystem(Department transfer)</li><li>Wordpress websites</li></ul>"
 		}
 	];
 </script>
@@ -177,10 +177,10 @@
 	.header {
 		width: 100%;
 		height: 100vh;
-		background-image: linear-gradient(rgba(0, 0, 0, .95), rgba(0, 0, 0, 0.9) ), url("/images/background-code-min.jpg");	
+		background-image: linear-gradient(rgba(0, 0, 0, .95), rgba(0, 0, 0, 0.75) ), url("/images/background-code-min.jpg");	
   		background-size: cover;
   		background-repeat: no-repeat;
-        filter: grayscale(50%);
+        filter: grayscale(70%);
 	}
 	.center {
 		text-align: center;
