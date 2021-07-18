@@ -4,7 +4,7 @@
 	import ScrollIcon from './ScrollIcon.svelte';
 	import TimeLine from './TimeLine.svelte';
 	let name: string = "Nico Bleiler";
-	let attributes: Array<string> = ["a developer.", "an engineer.", "Batman.", "a tinkerer.", "a gamer.", "running out of ideas to put here.", "Ironman.", "looking for a Job."];
+	let attributes: Array<string> = ["a developer.", "an engineer.", "a tinkerer.", "a gamer.", "running out of text to put here.", "Ironman.", "looking for a job."];
 	let skillItems = [
 		{
 			image: "/images/skills/PythonLogo.png",
