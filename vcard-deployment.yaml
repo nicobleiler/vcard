@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vcard
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vcard
+  template:
+    metadata:
+      labels:
+        app: vcard
+    spec:
+      containers:
+      - name: vcard
+        image: nicobleiler/vcard:latest
+        imagePullPolicy: Always
+        resources:
+          requests:
+            cpu: 250m
+          limits:
+            cpu: 750m            
+        ports:
+        ports:
+        - containerPort: 80
+          name: web
+          protocol: TCP
+        readinessProbe:
+          httpGet:
+            port: web
+            path: /
