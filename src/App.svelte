@@ -106,7 +106,7 @@
 			timeRange: "2020",
 			location: "bitfire GmbH",
 			title: "Software developer",
-			subtitle: "09/2020 - present",
+			subtitle: "09/2020 - 09/2021",
 			description: "<ul><li>Automating scripts on 1500 clients</li><li>Ticketsystem synchronizations<ul><li>MS Teams calls</li><li>Monitoring tool</li><li>Remotesupport sessions</li></ul></li><li>Database administration</li></ul>"
 		},
 		{
