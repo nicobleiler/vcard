@@ -102,6 +102,14 @@
 	];
 	let timeLineItems = [
 		{
+			image: "/images/timeline/pexon-logo.png",
+			timeRange: "2021",
+			location: "Pexon Consulting GmbH",
+			title: "Cloud Consultant Trainee",
+			subtitle: "10/2021 - present",
+			description: "<ul><li>Learning AWS, Azure & GCP</li><li>Learing to provision infrastructure using Terraform and Ansible</li><li>CI/CD</li><li>Create kubernetes deployments</li></ul>"
+		},
+		{
 			image: "/images/timeline/bitfire-logo.png",
 			timeRange: "2020",
 			location: "bitfire GmbH",

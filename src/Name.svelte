@@ -5,7 +5,7 @@
 </script>
 
 <div class="center">
-    <img id="avatar" src="/images/me-hc.jpg" alt="Avatar">
+    <img id="avatar" src="/images/me-hc.jpg" alt="Nico Bleiler">
     <h1>
         <span id="name">{name}</span>
     </h1>
