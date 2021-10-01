@@ -11,7 +11,7 @@
 		"a gamer.",
 		"running out of text to put here.",
 		"Iron Man.",
-		"looking for a job."
+		"a consultant."
 	];
 	let skillItems = [
 		{
