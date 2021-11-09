@@ -105,9 +105,9 @@
 			image: "/images/timeline/pexon-logo.png",
 			timeRange: "2021",
 			location: "Pexon Consulting GmbH",
-			title: "Cloud Consultant Trainee",
+			title: "Cloud Consultant",
 			subtitle: "10/2021 - present",
-			description: "<ul><li>Learning AWS, Azure & GCP</li><li>Learing to provision infrastructure using Terraform and Ansible</li><li>CI/CD using GitHub, GitLab and Jenkins</li><li>Create kubernetes deployments</li></ul>"
+			description: "<ul><li>Working with AWS, Azure & GCP</li><li>Provisioning infrastructure using Terraform and Ansible</li><li>CI/CD using GitHub, GitLab and Jenkins</li><li>Create kubernetes deployments</li></ul>"
 		},
 		{
 			image: "/images/timeline/bitfire-logo.png",
