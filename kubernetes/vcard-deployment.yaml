@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: vcard
 spec:
-  replicas: 100
+  replicas: 5
   selector:
     matchLabels:
       app: vcard
