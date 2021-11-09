@@ -20,8 +20,7 @@ spec:
           requests:
             cpu: 250m
           limits:
-            cpu: 750m            
-        ports:
+            cpu: 750m
         ports:
         - containerPort: 80
           name: web
