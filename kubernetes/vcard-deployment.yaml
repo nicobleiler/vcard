@@ -22,7 +22,7 @@ spec:
           limits:
             cpu: 750m
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           name: web
           protocol: TCP
         readinessProbe:

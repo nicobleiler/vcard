@@ -8,6 +8,6 @@ RUN npm install
 COPY . ./
 RUN npm run build
 
-FROM nginx:1.21.1-alpine
-EXPOSE 80 443
+FROM nginxinc/nginx-unprivileged:1.21.1-alpine
+EXPOSE 8080
 COPY --from=build /app/public /usr/share/nginx/html
