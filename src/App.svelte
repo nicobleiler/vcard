@@ -107,7 +107,7 @@
 			location: "Pexon Consulting GmbH",
 			title: "Cloud Consultant",
 			subtitle: "10/2021 - present",
-			description: "<ul><li>Working with AWS, Azure & GCP</li><li>Provisioning infrastructure using Terraform and Ansible</li><li>CI/CD using GitHub, GitLab and Jenkins</li><li>Create kubernetes deployments</li></ul>"
+			description: "<ul><li>Working with Kubernetes on AWS</li><li>Provisioning infrastructure using Terraform</li><li>CI/CD using GitHub & GitLab</li><li>Manage kubernetes deployments</li></ul>"
 		},
 		{
 			image: "/images/timeline/bitfire-logo.png",
